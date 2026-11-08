@@ -1,0 +1,17 @@
+{
+  "name": "price-track-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Price Track backend API and SQLite seed-data loader",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "import:seed": "node scripts/import-seed-data.js"
+  },
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "read-excel-file": "^9.3.12",
+    "sql.js": "^1.14.2"
+  }
+}

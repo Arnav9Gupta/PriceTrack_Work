@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light"><title>Price Track · ProjectTrack</title>
+  <link rel="icon" href="data:,"><link rel="stylesheet" href="/styles.css">
+  <script src="/pricing-auth.js" defer></script>
+  <script src="/resource-plan.js" defer></script>
+  <script src="/workbook-calculator.js" defer></script>
+  <script src="/pricing-versions.js" defer></script>
+  <script src="/pricing-approvals.js" defer></script>
+  <script src="/pricing-negotiation.js" defer></script>
+  <script src="/pricing-handoff.js" defer></script>
+  <script src="/pricing-comparison.js" defer></script>
+  <script src="/pricing-dashboard.js" defer></script>
+  <script src="/pricing-export.js" defer></script>
+  <script src="/pricing-workspace.js" defer></script>
+  <script src="/pricing-activity.js" defer></script>
+  <script src="/pricing-summary.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body class="auth-locked">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="host-header">
+    <button class="icon-button" id="nav-toggle" aria-label="Toggle Price Track navigation" aria-expanded="true"></button>
+    <img class="brand-logo" src="/assets/c5i-logo.png" alt="C5i">
+    <span class="brand-divider"></span><strong class="wordmark">ProjectTrack</strong><span class="module-label">Price Track</span>
+    <div class="header-spacer"></div>
+    <button class="icon-button" data-action="global-search" aria-label="Search pricing cases"></button>
+    <button class="icon-button" data-action="help" aria-label="Help"></button>
+    <button class="profile" data-action="profile" aria-label="Signed-in account"><span class="avatar">MS</span><span class="profile-copy"><b>Signed-in user</b><small>Local account</small></span></button>
+  </header>
+  <aside class="host-rail" aria-label="ProjectTrack modules"><div id="rail-icons"></div><span class="rail-bottom">PT</span></aside>
+  <aside class="module-nav" id="module-nav" aria-label="Price Track navigation"></aside>
+  <div class="workspace">
+    <div class="environment-strip"><span><i></i> Demo · Synthetic data · Not Finance approved</span><span id="api-status" role="status">Checking local backend…</span></div>
+    <main id="main" tabindex="-1"></main>
+    <footer class="workspace-footer"><span>Price Track / ProjectTrack component preview</span><span>Pricing workflows saved in SQLite · No live enterprise integrations</span></footer>
+  </div>
+  <div id="overlay"></div><div id="toasts" role="status" aria-live="polite"></div>
+</body>
+</html>

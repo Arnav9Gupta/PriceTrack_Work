@@ -1,0 +1,5 @@
+data/
+LOCAL_LOGIN_PASSWORDS_*.csv
+__pycache__/
+*.pyc
+.env
